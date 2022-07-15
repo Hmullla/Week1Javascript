@@ -1,7 +1,7 @@
 const person = {
     name: "Hannah",
     age: 17,
-    favFood: ["Sushi", "Noodles"],
+    favFood: ["Sushi", "Noodles","Chocolate"],
     sayHi () {
         return `Hello my name is ${this.name}`;
     }
