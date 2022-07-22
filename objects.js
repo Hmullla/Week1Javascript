@@ -1,12 +1,14 @@
 const person = {
     name: "Hannah",
     age: 17,
+    favSongs: ["Try me - the weekend","Snap out of it - Arctic monkeys"],
     favFood: ["Sushi", "Noodles","Chocolate"],
     sayHi () {
         return `Hello my name is ${this.name}`;
     }
 };
 
+console.log(person.favSongs);
 console.log(person.sayHi());
 
 let days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
@@ -26,5 +28,12 @@ else
 {
     alarmSetting = alarm.weekdayAlarm;
     console.log(`It's a weekday, ${alarmSetting}`);
+}
+
+const animal = {
+    name: "Bob",
+    typeOfPet: "Cat",
+    age: 4,
+    colour: "Ginger"
 }
 
